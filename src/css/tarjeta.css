@@ -1,0 +1,68 @@
+.tarjeta-container {
+  margin-top: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 1000;
+  padding: 20px;
+}
+
+.tarjeta-card {
+  flex: 1;
+  max-width: 30%;
+  min-width: 280px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.tarjeta-content {
+  font-size: 1.1em;
+  line-height: 1.6;
+  padding-top: 1rem;
+}
+
+.tarjeta-section {
+  margin-bottom: 20px;
+}
+
+.tarjeta-section p {
+  margin-bottom: 1rem;
+}
+
+.title-card-tarjeta {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.divider {
+  width: 100%;
+  border-top: 1px solid #ccc;
+  margin: 10px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.tarjeta-button {
+  background-color: #76d89e;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.1em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1;
+  width: fit-content;
+}
+
+.tarjeta-button:hover {
+  background-color: #66c08c;
+}
